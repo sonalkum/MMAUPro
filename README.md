@@ -29,7 +29,7 @@ For evaluation, we provide:
 	•	Open-ended QA with LLM-as-a-judge
 	•	Regex based string matching for Instruction Following
 
-⸻
+---
 
 🧪 Baselines & Model Performance
 
@@ -41,7 +41,7 @@ We benchmarked 22 leading models on MMAU-Pro.
 
 See full results in the paper.
 
-⸻
+---
 
 🌍 Multicultural Music Coverage
 
@@ -50,7 +50,7 @@ MMAU-Pro includes music from 8 diverse regions:
 
 This reveals clear biases: models perform well on Western/Chinese but poorly on Indian/Latin American music.
 
-⸻
+---
 
 📥 Download
 
@@ -58,7 +58,7 @@ This reveals clear biases: models perform well on Western/Chinese but poorly on 
 - Paper: [MMAU-Pro](https://arxiv.org/abs/2508.13992)
 - Website: [Official Page](https://sonalkum.github.io/mmau-pro/)
 
-⸻
+---
 
 🧩 Evaluation
 
@@ -66,7 +66,7 @@ The evaluation code is designed to take in the complete `test.parquet` with pred
 ```
 python evaluate_mmau_pro_comprehensive.py test.parquet --model_output_column model_output
 ```
-⸻
+---
 
 ✍️ Citation
 
@@ -81,7 +81,7 @@ If you use MMAU-Pro, please cite:
 }
 ```
 
-⸻
+---
 
 🙏 Acknowledgments
 
