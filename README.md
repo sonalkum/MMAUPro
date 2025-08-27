@@ -16,28 +16,6 @@ The dataset contains **5,305 expert-annotated question–answer pairs**, with au
 
 ---
 
-## 📊 Dataset Statistics
-
-| Category | Count |
-|----------|-------|
-| Total QA Instances | 5,305 |
-| Domains | 11 |
-| Speech Qs | 891 |
-| Sound Qs | 1,654 |
-| Music Qs | 1,618 |
-| Multi-Modal Mixes (Sound–Speech, etc.) | 191 |
-| Spatial QA | 325 |
-| Voice STEM QA | 94 |
-| Instruction Following | 87 |
-| Multi-Audio QA | 430 (2-audio), 26 (3-audio) |
-| Multiple Choice | 4,593 |
-| Open-ended | 625 |
-| Avg. Audio Length | 123.8 sec |
-| Durations | Short (≤30s): 2,589 • Medium (30s–3min): 1,897 • Long (3–8min): 1,307 • Ultra-long (8–10min): 348 |
-
----
-
-
 🚀 Usage
 
 You can load the dataset via Hugging Face datasets:
