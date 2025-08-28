@@ -1,6 +1,6 @@
 # MMAU-Pro: A Challenging and Comprehensive Benchmark for Audio General Intelligence
 
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-orange)](https://huggingface.co/datasets/sonalkum/MMAU-Pro/) [![Paper](https://img.shields.io/badge/arxiv-%20PDF-red)](https://www.arxiv.org/pdf/2508.13992)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-orange)](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro) [![Paper](https://img.shields.io/badge/arxiv-%20PDF-red)](https://www.arxiv.org/pdf/2508.13992)
 
 [MMAU-Pro](https://arxiv.org/abs/2508.13992) is the most comprehensive benchmark to date for evaluating **audio intelligence in multimodal models**. It spans speech, environmental sounds, music, and their combinations—covering **49 distinct perceptual and reasoning skills**.  
 
@@ -54,7 +54,7 @@ This reveals clear biases: models perform well on Western/Chinese but poorly on 
 
 📥 Download
 
-- Dataset: [HF](https://huggingface.co/datasets/sonalkum/MMAU-Pro)
+- Dataset: [HF](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro)
 - Paper: [MMAU-Pro](https://arxiv.org/abs/2508.13992)
 - Website: [Official Page](https://sonalkum.github.io/mmau-pro/)
 
