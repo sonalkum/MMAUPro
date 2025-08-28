@@ -1,6 +1,6 @@
 # MMAU-Pro: A Challenging and Comprehensive Benchmark for Audio General Intelligence
 
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-orange)](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro) [![Paper](https://img.shields.io/badge/arxiv-%20PDF-red)](https://www.arxiv.org/pdf/2508.13992)
+[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-orange)](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro) [![Paper](https://img.shields.io/badge/arxiv-%20PDF-red)](https://www.arxiv.org/pdf/2508.13992) [![Audios](https://img.shields.io/badge/🔈%20-Audios-blue)](https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro/blob/main/data.zip)
 
 [MMAU-Pro](https://arxiv.org/abs/2508.13992) is the most comprehensive benchmark to date for evaluating **audio intelligence in multimodal models**. It spans speech, environmental sounds, music, and their combinations—covering **49 distinct perceptual and reasoning skills**.  
 
@@ -20,9 +20,10 @@ The dataset contains **5,305 expert-annotated question–answer pairs**, with au
 
 You can load the dataset via Hugging Face datasets:
 
+```
 from datasets import load_dataset
-
 ds = load_dataset("sonalkum/MMAU-Pro")
+```
 
 For evaluation, we provide:
 	•	MCQ scoring via embedding similarity (NV-Embed-v2)
