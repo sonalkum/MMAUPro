@@ -22,7 +22,7 @@ You can load the dataset via Hugging Face datasets:
 
 ```
 from datasets import load_dataset
-ds = load_dataset("sonalkum/MMAU-Pro")
+ds = load_dataset("gamma-lab-umd/MMAU-Pro")
 ```
 
 For evaluation, we provide:
